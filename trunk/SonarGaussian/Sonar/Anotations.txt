@@ -1,0 +1,43 @@
+
+Ground Truth
+- Read Gaussians
+- Write Gaussians
+FrameGT:
+  - Gaussians information
+  - Match information between frames
+  -
+
+Sonar
+- Read Gaussians
+- Write Gaussians
+* Segmentation
+* GraphMatcher
+
+* SonarDescriptor:
+ - Gaussians information
+ - Graph information by GraphLink
+
+
+Segmentação utilizando Otsu melhorado:
+
+* Os cara falam pagina 6 inicio que o SSS
+tem uma qualidade melhor que o FLS (eu discordo,
+e tenho referencias que dizem o contrario, pessoal de Girona).
+
+
+
+O problema de segmentação de componentes
+conexos e definição de threshold está quase
+que resolvido. O maior problema é que
+os componentes segmentados que estão próximos
+as vezes pertencem a um único objeto, e as vezes
+pertencem a objetos distintos.
+
+IDEIA: Utilizar SVM para saber quando junta ou
+não os segmentos ??  Usa-se o grafo?
+
+- Ideia antiga: Projetar segmentação e reconhecimento
+dos objetos na imagem óptica do ROV. (Como saber a
+intersecção entre o campo de visão da câmera e do sonar?
+Como funcionam câmeras de ré do_
+
